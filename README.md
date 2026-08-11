@@ -12,6 +12,7 @@
 
 - [README.md](./README.md) — 项目简介 + 核心洞见（本文）
 - [PRODUCTION-BRIEF.md](./PRODUCTION-BRIEF.md) — **🔥 团队原始制作简报完整中文提炼（一手资料，最权威）**
+- [ACADEMY-PROMPTBANK.md](./ACADEMY-PROMPTBANK.md) — **Higgsfield Academy 全部16门课程 + 46个摄像机运镜提示词库 + Seedance 2.5 完整功能参数**
 - [HELL-GRIND-DEPTH.md](./HELL-GRIND-DEPTH.md) — 深度提炼：AI短视频可控生产系统（基于简报的二次整理）
 - [WORKFLOW.md](./WORKFLOW.md) — 完整工作流指南：原则→步骤→工具→注意事项
 - [TEMPLATE.md](./TEMPLATE.md) — 可复制模板：1分钟短视频从零跑通工具包（提示词骨架+分镜表+完整示例）
