@@ -142,9 +142,9 @@ your-shortfilm/
 | 提示词归档 | GitHub / 本地笔记 | 沉淀复用 |
 
 ### Hell Grind 官方用的工具：
-- 全部创作在 **Higgsfield Cinema Studio** 内完成
-- 用平台的 **Seedance 2.5** 做AI视频生成
-- 平台提供超级计算机算力，支持大项目批量生成
+- **模型：** 字节跳动 Seed 团队的 **Seedance 2.5**（字节旗舰AI视频模型，支持30秒4K生成+同步音频）
+- **平台：** **Higgsfield Cinema Studio**（第三方聚合平台，整合了Seedance等模型，提供在线画布管理项目，Hell Grind 就是在这里完成的）
+- **算力：** Higgsfield 提供超级计算机算力，支持大项目批量生成
 
 ### 普通人做短视频的替代方案：
 - 如果想用免费/开源工具：Stable Video Diffusion 本地部署
