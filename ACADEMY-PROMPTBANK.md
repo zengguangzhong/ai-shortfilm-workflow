@@ -1,7 +1,12 @@
 # Higgsfield Academy 完整内容抓取报告
 
-> 抓取时间：2026-08-11
-> 来源：higgsfield.ai/academy + higgsfield.ai/seedance/2.5
+> **来源页面：**
+> - 课程列表与详情：https://higgsfield.ai/academy/courses 及各课程子页面（URL 见每门课程标题下方）
+> - Prompt Bank 提示词库：https://higgsfield.ai/academy/apps/prompt-bank?section=camera
+> - Seedance 2.5 产品详情：https://higgsfield.ai/seedance/2.5
+>
+> **获取方式：** web_extract 抓取 + browser_console 提取动态加载内容
+> **抓取时间：** 2026-08-11
 
 ---
 

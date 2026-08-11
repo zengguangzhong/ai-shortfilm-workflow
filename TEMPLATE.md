@@ -1,6 +1,8 @@
 # 可复制模板：1分钟短视频从零跑通工具包
 
-> 完全基于 Hell Grind 原则缩放，复制就能用。
+> **来源页面：** https://higgsfield.ai/@higgsfield.studio/projects/hell-grind
+> **信息性质：** 基于 Hell Grind 团队制作简报原则缩放的实操模板，非原文直接引用
+> **依赖文档：** [PRODUCTION-BRIEF.md](./PRODUCTION-BRIEF.md) 的原则 + [ACADEMY-PROMPTBANK.md](./ACADEMY-PROMPTBANK.md) 的提示词库
 
 ---
 

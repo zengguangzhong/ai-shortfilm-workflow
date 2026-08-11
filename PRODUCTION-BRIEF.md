@@ -1,8 +1,14 @@
-# Hell Grind 原始制作简报 — 完整中文提炼
+# Hell Grind 原始制作简报 - 完整中文提炼
 
-> 来源：Higgsfield 官方团队在 Hell Grind 项目页面发布的完整制作简报（Production Brief）
-> 原文地址：https://higgsfield.ai/@higgsfield.studio/projects/hell-grind
-> 这是团队自己写的一手资料，不是二手总结。
+> **来源页面：** https://higgsfield.ai/@higgsfield.studio/projects/hell-grind
+> **获取方式：** 页面动态加载的团队简报正文（通过 browser_console 读取 DOM innerText 提取，非页面 HTML 源码可见）
+> **信息性质：** 团队自己写的一手资料，不是二手总结
+>
+> **各章节来源说明：**
+> - 项目概况/工具链/第一至第十章：均来自上述页面的团队制作简报正文
+> - 第十一章（目录结构推论）：来自同一页面的文件夹列表（Folders 区域）
+> - 第十二章（官方教程）：见 ACADEMY-PROMPTBANK.md
+> - 第十三章（评论区）：来自同一页面底部动态加载的715条评论
 
 ---
 
