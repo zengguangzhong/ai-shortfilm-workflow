@@ -128,7 +128,32 @@ your-shortfilm/
 
 ---
 
-## 五、给短视频创作者的启发
+## 五、推荐工具链
+
+这个项目本身就是在 **Higgsfield** 平台上完成的，官方工具链是：
+
+| 步骤 | 推荐工具 | 说明 |
+|------|----------|------|
+| 故事脚本 | 任何笔记工具（Notion/飞书/语雀） | 拆分镜头写提示词用 |
+| 静态关键帧生成 | **Higgsfield Image / Midjourney / DALL-E 3** | 定构图风格 |
+| 视频生成 | **Higgsfield Seedance 2.5 / Runway / Pika Labs** | 从关键帧生成视频 |
+| 项目管理 | Higgsfield Canvas | 在线画布管理所有素材，Hell Grind 就是用这个 |
+| 剪辑合成 | 剪映 / Adobe Premiere / Final Cut Pro | 看你习惯 |
+| 提示词归档 | GitHub / 本地笔记 | 沉淀复用 |
+
+### Hell Grind 官方用的工具：
+- 全部创作在 **Higgsfield Cinema Studio** 内完成
+- 用平台的 **Seedance 2.5** 做AI视频生成
+- 平台提供超级计算机算力，支持大项目批量生成
+
+### 普通人做短视频的替代方案：
+- 如果想用免费/开源工具：Stable Video Diffusion 本地部署
+- 如果想用云端方便：Pika Labs（Discord）/ Runway 都可以
+- 工作流是一样的，工具只是载体，方法论不变
+
+---
+
+## 六、给短视频创作者的启发
 
 Hell Grind 是AI电影的里程碑，它证明了一件事：
 
