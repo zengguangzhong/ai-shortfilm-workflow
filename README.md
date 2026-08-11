@@ -13,6 +13,7 @@
 - [README.md](./README.md) — 项目简介 + 核心洞见（本文）
 - [WORKFLOW.md](./WORKFLOW.md) — 完整工作流指南：原则→步骤→工具→注意事项
 - [HELL-GRIND-DEPTH.md](./HELL-GRIND-DEPTH.md) — **深度提炼：AI短视频可控生产系统**（最核心干货，来自原项目简报）
+- [TEMPLATE.md](./TEMPLATE.md) — **可复制模板：1分钟短视频从零跑通工具包**（提示词骨架+分镜表+完整示例，直接复制改）
 
 ## 从 Hell Grind 提炼出的核心洞见
 
