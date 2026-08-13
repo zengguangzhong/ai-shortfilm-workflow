@@ -11,7 +11,7 @@
 Higgsfield Academy 全部16门课程教学大纲 + 46个摄像机运镜提示词库（完整原文，可直接复制）+ Seedance 2.5 完整功能参数与示例。
 
 📚 **[SEEDANCE-25-OFFICIAL.md](./SEEDANCE-25-OFFICIAL.md)** - 豆包官方升级介绍
-ByteDance 飞书官方文档提炼。Seedance 2.5 七大核心能力（时间戳编辑/30s时长/真实感/对白/视频编辑/多模态参考）+ Seedream 5.0 Pro 四大更新 + 与 Higgsfield 产品页的对比。
+ByteDance 飞书官方文档摘要 + 链接。Seedance 2.5（30s/时间戳编辑/多模态参考）+ Seedream 5.0 Pro 核心更新。
 
 📋 **[TEMPLATE.md](./TEMPLATE.md)** — 实操模板
 1分钟短视频从零跑通工具包：提示词骨架模板 + GEO空间地图模板 + 分镜表模板 + 完整示例（雨夜女孩与机械鸟，含逐镜提示词）。
