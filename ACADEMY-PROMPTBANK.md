@@ -10,10 +10,11 @@
 
 ---
 
-## 一、课程总览（全部16门课程）
+## 一、课程总览（全部18门课程）
 
 ### 课程分类
 - **Movie making** (电影制作) - 7门课程
+- **入门课程** (Cinema Studio 基础) - 2门课程
 - **UGC & Social Content** (用户生成内容与社交) - 7门课程
 - **Automate & Agents** (自动化与智能体) - 2门课程
 
@@ -50,6 +51,7 @@
 - **URL**: https://higgsfield.ai/academy/courses/santiago-cinematic
 - **难度**: Intermediate | **时长**: 33 min | **模块**: 19
 - **描述**: 33分钟导演大师课。用 Claude Fable 5 和 Seedance 2.0 4K 逐镜头构建足球剧情片
+- > ⚠️ 注：原文写作 "Claude Fable 5"，与 Anthropic 公开的产品线（Sonnet / Opus 系列）对不上，Fable 在 Anthropic 体系里是安全研究模型代号，并非创作类产品。此处存疑，疑似原始页面笔误或截取误差，使用时建议以 Anthropic 官方在售的 Claude 创作类模型为准。
 - **教学大纲**:
   1. Thinking like a director
   2. Watch the Santiago short film
@@ -197,7 +199,7 @@
 
 ### 9. The AI Filmmaking Pipeline
 - **URL**: https://higgsfield.ai/academy/courses/cinema-studio-pro
-- **难度**: Medium | **时长**: 58 min | **模块**: 22 | **免费生成**: 50+次
+- **难度**: Intermediate | **时长**: 58 min | **模块**: 22 | **免费生成**: 50+次
 - **描述**: Elements、一致性和完整流水线 - 由 Hell Grind 团队教授
 - **学习内容**:
   - 深入了解主题并学习基础
@@ -276,19 +278,23 @@
 - **URL**: https://higgsfield.ai/academy/courses/build-a-brands-visuals
 - **难度**: Intermediate | **时长**: 26 min | **模块**: 9
 - **描述**: 创建完整的AI品牌视觉系统，从品牌和产品到试穿、广告、社交内容、电视广告和包装
+- > ⚠️ 注：教学大纲未抓取，仅保留课程描述。
 
 ### 13. Make a Cinematic Ad End-to-End
 - **URL**: https://higgsfield.ai/academy/courses/make-a-cinematic-ad
 - **难度**: Intermediate | **时长**: 46 min | **模块**: 10
 - **描述**: 通过可复用资产和提示词框架构建电影级AI广告，完成12场景故事、制胜节拍和产品镜头
+- > ⚠️ 注：教学大纲未抓取，仅保留课程描述。
 
 ### 14. Build a Faceless Channel
 - **难度**: Beginner | **时长**: 14 min | **模块**: 7
 - **描述**: 通过连接Claude和Higgsfield来构建和测试无面孔AI频道，写脚本、生成视频、包装并阅读早期数据
+- > ⚠️ 注：URL 与教学大纲均未抓取，仅保留课程描述。
 
 ### 15. Mix AI with Real Footage
 - **难度**: Intermediate | **时长**: 5 min | **模块**: 10
 - **描述**: 通过移除或添加元素、更改服装和背景、构建转场、重新构图和放大，将AI编辑与真实素材结合
+- > ⚠️ 注：URL 与教学大纲均未抓取，仅保留课程描述。
 
 ### 16. Direct a cinematic AI car commercial
 - **URL**: https://higgsfield.ai/academy/courses/cinematic-car-commercial
@@ -515,7 +521,7 @@ A single slow, perfectly smooth constant pull-back, the frame gradually widening
 ### 核心参数
 - **最长时长**: 30秒连续单镜头
 - **分辨率**: 原生 4K
-- **参考输入**: 最多50个多模态输入（图片和视频片段）
+- **参考输入**: 最多50个多模态输入（最多 30 张图片 + 10 段视频 + 10 段音频，详见 [SEEDANCE-25-OFFICIAL.md](./SEEDANCE-25-OFFICIAL.md)）
 - **音频**: 与画面同步生成（环境音、拟音、配乐）
 - **宽高比**: 9:16 到 21:9 任意比例
 - **开发商**: ByteDance 旗舰AI视频模型
@@ -533,13 +539,14 @@ A single slow, perfectly smooth constant pull-back, the frame gradually widening
 
 4. **Audio (音频)**
    - 声音与像素同时生成，匹配屏幕动作
+   - > ⚠️ 注意：Seedance 2.5 官方介绍中"音频"含配乐；但 [PRODUCTION-BRIEF.md](./PRODUCTION-BRIEF.md) 的 Hell Grind 团队规则要求提示词末尾强制写 `SFX only. No music.`——即生成阶段只保留环境音/拟音，音乐一律放后期。两者立场相反，请按你自己的项目取舍：要做长片/连续叙事建议遵循 Hell Grind 规则（音乐后期加），做单条短视频可直接用 2.5 的同步配乐。
 
 5. **Region Edit (区域编辑)**
    - 替换物体或优化面部，无需重新生成整个片段
    - 示例：Swap Label / Clean Background / Change Wardrobe
 
 6. **30S (30秒)**
-   - 一次连续拍摄6倍时长
+   - 单段时长由 Seedance 2.0 的 15s 提升到 30s，约 2 倍（详见 [SEEDANCE-25-OFFICIAL.md](./SEEDANCE-25-OFFICIAL.md)）
 
 ### 三步生成流程
 1. **上传图片** - 添加可选图片引导外观、角色或环境

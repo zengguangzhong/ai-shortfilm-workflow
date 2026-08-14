@@ -31,7 +31,7 @@ ByteDance 飞书官方文档摘要 + 链接。Seedance 2.5（30s/时间戳编辑
 
 ## 未获取内容（需要登录或视频播放）
 
-- 三个技能文件完整内容：CINEDANCE SKILL.md / ACTING SKILL.md / LIRA SKILL.md（页面上只显示文件名，点击需登录）
+- 三个技能文件完整内容：CINEDANCE HIGGSFIELD SKILL.md / ACTING SKILL.md / LIRA SKILL.md（页面上只显示文件名，点击需登录）
 - Canvas 预览内容（角色表/地点表/道具表的在线画布）
 - 具体 Scene 文件夹里的实际文件（点击未跳转到文件列表）
 - 95分钟视频本身（未播放）

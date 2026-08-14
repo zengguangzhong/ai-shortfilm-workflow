@@ -35,6 +35,8 @@ Cinematic photorealism, natural film grain, 35mm cine lens, shallow depth of fie
 Photoreal. NON-IP. 16:9. [时长]s. SFX only. No music. Cinematic. 8K detail, pore-level skin, no jitter, no flicker; the faces stay exactly their references at every distance.
 ```
 
+> ⚠️ 上面这段是简化版。**做正式项目时**请改用 [PRODUCTION-BRIEF.md 第四章末尾](./PRODUCTION-BRIEF.md) 的"团队原版 Style Prefix"（含 Cinematography / Lighting / Color 60:30:10 / Skin / Acting / Physics / Composition / Continuity 等 11 行），原样粘贴、不缩写——这是 Hell Grind 团队的铁律。
+
 **使用强制规则：**
 - ✅ 角色描述、GEO、Style Prefix 一旦锁定，**所有镜头必须原样粘贴**
 - ✅ 每次迭代**只改 ACTION TIMING 或 CHARACTER ACTING 里的一行**
@@ -137,12 +139,12 @@ Photoreal. NON-IP. 16:9. 6s. SFX only. No music. Cinematic. 8K detail, pore-leve
 
 ---
 
-## 开始行动（最小实践步骤
+## 开始行动（最小实践步骤）
 
 1. 直接复制上面的骨架和示例，改成你自己的主题
-2. 先做角色三视图（记住：脸部特写 + 全身正面无头 + 全身背面），做完压力测试（10次不同姿势都能认出角色
+2. 先做角色三视图（记住：脸部特写 + 全身正面无头 + 全身背面），做完压力测试（10次不同姿势都能认出角色）
 3. 写好GEO空间地图，生成第一镜（先用720p测试）
-4. 严格遵守：**一次改一行 + 超过15次不理想就简化镜头
+4. 严格遵守：**一次改一行 + 超过15次不理想就简化镜头**
 
 ---
 
